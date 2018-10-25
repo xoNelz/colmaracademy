@@ -1,0 +1,27 @@
+* {
+    margin: 0 0;
+}
+
+.header {
+  display: flex;
+  background-color: skyblue;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 2px 24px;
+}
+
+.header nav {
+  margin-right: 24px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  margin: 0 8px;
+}
