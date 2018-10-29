@@ -12,6 +12,12 @@
   display: flex;
   align-items: center;
   margin: 2px 24px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .header nav {
@@ -27,9 +33,27 @@ nav a {
 }
 
 .mainbanner {
+  width: 100%;
+  height: 540px;
+  background-color: #D8D8D8;
+  display: flex;
+  align-items: center;
+}
+
+.bannerphoto {
+
   width: 60%;
   height: 500px;
+  margin-left: 24px;
   background-image: url("../images/banner.jpg");
   background-size: cover;
-  margin: 16px 24px;
+}
+
+.mainbanner span {
+  margin-left: 24px;
+  font-size: 20px;
+}
+
+h1, p {
+  color: #4A4A4A;
 }
