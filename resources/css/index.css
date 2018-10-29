@@ -25,3 +25,11 @@ nav {
 nav a {
   margin: 0 8px;
 }
+
+.mainbanner {
+  width: 60%;
+  height: 500px;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  margin: 16px 24px;
+}
