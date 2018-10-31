@@ -85,32 +85,37 @@ h1 {
 
 .infobanner {
   display: flex;
+  background-color: #F1F2F6;
 }
 
 .infovalue {
   margin: 20px 24px;
   width: 60%;
+
 }
 
-.infophoto img {
+.infovalue img {
   width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-bottom: 32px;
 }
 
-.infovalue h2{
-  margin-top: 32px;
+.infovalue p, span {
+  margin-top: 24px;
 }
-
 
 .infogrid {
 flex-direction: row;
-width: 60%;
-margin: 20px 10px;
+width: 40%;
+margin: 0 0 20px 10px;
 }
 
 .grid {
-  border: 0.5px solid black;
   display: flex;
   align-items: center;
+  border-left: 2px solid #D8D8D8;
+  border-bottom: 2px solid #D8D8D8;
 }
 
 .grid img{
