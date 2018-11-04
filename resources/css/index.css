@@ -123,3 +123,22 @@ margin: 0 0 20px 10px;
   width: 35%;
   margin: 16px;
 }
+
+/* Learning Section*/
+
+.classes h2 {
+  text-align: center;
+  margin-top: 32px;
+  color: #484848;
+}
+
+.class_content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 32px 72px;
+  border: 1px solid brown;
+}
+
+.class {
+  width: 65%;
+}
