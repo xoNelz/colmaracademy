@@ -137,8 +137,16 @@ margin: 0 0 20px 10px;
   flex-wrap: wrap;
   margin: 32px 72px;
   border: 1px solid brown;
+  justify-content: space-between;
 }
 
 .class {
-  width: 65%;
+  width: 30%;
+  height: 75%;
+  margin: 16px;
+}
+
+.class img {
+  width: 100%;
+  height: auto;
 }
