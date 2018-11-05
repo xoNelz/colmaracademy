@@ -101,7 +101,11 @@ h1 {
   margin-bottom: 32px;
 }
 
-.infovalue p, span {
+.infovalue span {
+  margin-top: 24px;
+}
+
+.infovalue p {
   margin-top: 24px;
 }
 
@@ -125,28 +129,51 @@ margin: 0 0 20px 10px;
 }
 
 /* Learning Section*/
+.classes {
+  display: flex;
+  background-color: #EAEBED;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .classes h2 {
-  text-align: center;
   margin-top: 32px;
-  color: #484848;
 }
 
 .class_content {
   display: flex;
   flex-wrap: wrap;
-  margin: 32px 72px;
-  border: 1px solid brown;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .class {
-  width: 30%;
-  height: 75%;
-  margin: 16px;
+  width: 25%;
+  height: 45%;
+  background-color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.software_dev, .computer_art, .data, .business {
+  margin-right: 32px;
 }
 
 .class img {
   width: 100%;
   height: auto;
+}
+
+.class h3 {
+  margin: 16px;
+}
+
+.class span {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.class p {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
