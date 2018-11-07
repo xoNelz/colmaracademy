@@ -138,6 +138,7 @@ margin: 0 0 20px 10px;
 
 .classes h2 {
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .class_content {
@@ -176,4 +177,28 @@ margin: 0 0 20px 10px;
   margin-left: 16px;
   margin-top: 8px;
   margin-bottom: 16px;
+}
+
+/* thesis*/
+.thesis {
+  background-color: #F1F2F6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thesis h2 {
+  margin-top: 32px;
+}
+
+.column {
+  display: flex;
+  margin-top: 32px;
+}
+
+.video {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  width: 100%;
 }
