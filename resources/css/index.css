@@ -182,23 +182,30 @@ margin: 0 0 20px 10px;
 /* thesis*/
 .thesis {
   background-color: #F1F2F6;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .thesis h2 {
-  margin-top: 32px;
+  text-align: center;
+  padding-top: 32px;
 }
 
 .column {
   display: flex;
-  margin-top: 32px;
+  justify-content: center;
 }
 
-.video {
-  margin-left: 24px;
-  margin-bottom: 24px;
-  margin-right: 24px;
-  width: 100%;
+.video{
+  padding:0 24px 24px 24px;
+  width:60%;
+  border: 1px solid black;
+}
+
+video{
+  width:100%;
+  height: auto;
+}
+
+.video_section {
+  border: 1px solid blue;
+  width: 60%;
 }
